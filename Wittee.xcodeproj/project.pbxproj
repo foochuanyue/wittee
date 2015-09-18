@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E8ADA51BABF7E900C00590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8ADA41BABF7E900C00590 /* main.m */; };
+		47E8ADA81BABF7E900C00590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8ADA71BABF7E900C00590 /* AppDelegate.m */; };
+		47E8ADAB1BABF7E900C00590 /* Wittee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47E8ADA91BABF7E900C00590 /* Wittee.xcdatamodeld */; };
+		47E8ADAE1BABF7E900C00590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8ADAD1BABF7E900C00590 /* ViewController.m */; };
+		47E8ADB11BABF7E900C00590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E8ADAF1BABF7E900C00590 /* Main.storyboard */; };
+		47E8ADB31BABF7E900C00590 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E8ADB21BABF7E900C00590 /* Images.xcassets */; };
+		47E8ADB61BABF7E900C00590 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E8ADB41BABF7E900C00590 /* LaunchScreen.xib */; };
+		47E8ADC21BABF7E900C00590 /* WitteeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8ADC11BABF7E900C00590 /* WitteeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E8ADBC1BABF7E900C00590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E8AD971BABF7E900C00590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E8AD9E1BABF7E900C00590;
+			remoteInfo = Wittee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47E8AD9F1BABF7E900C00590 /* Wittee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wittee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E8ADA31BABF7E900C00590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E8ADA41BABF7E900C00590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47E8ADA61BABF7E900C00590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47E8ADA71BABF7E900C00590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47E8ADAA1BABF7E900C00590 /* Wittee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wittee.xcdatamodel; sourceTree = "<group>"; };
+		47E8ADAC1BABF7E900C00590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47E8ADAD1BABF7E900C00590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47E8ADB01BABF7E900C00590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47E8ADB21BABF7E900C00590 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47E8ADB51BABF7E900C00590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		47E8ADBB1BABF7E900C00590 /* WitteeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitteeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E8ADC01BABF7E900C00590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E8ADC11BABF7E900C00590 /* WitteeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitteeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E8AD9C1BABF7E900C00590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E8ADB81BABF7E900C00590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E8AD961BABF7E900C00590 = {
+			isa = PBXGroup;
+			children = (
+				47E8ADA11BABF7E900C00590 /* Wittee */,
+				47E8ADBE1BABF7E900C00590 /* WitteeTests */,
+				47E8ADA01BABF7E900C00590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E8ADA01BABF7E900C00590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E8AD9F1BABF7E900C00590 /* Wittee.app */,
+				47E8ADBB1BABF7E900C00590 /* WitteeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E8ADA11BABF7E900C00590 /* Wittee */ = {
+			isa = PBXGroup;
+			children = (
+				47E8ADA61BABF7E900C00590 /* AppDelegate.h */,
+				47E8ADA71BABF7E900C00590 /* AppDelegate.m */,
+				47E8ADAC1BABF7E900C00590 /* ViewController.h */,
+				47E8ADAD1BABF7E900C00590 /* ViewController.m */,
+				47E8ADAF1BABF7E900C00590 /* Main.storyboard */,
+				47E8ADB21BABF7E900C00590 /* Images.xcassets */,
+				47E8ADB41BABF7E900C00590 /* LaunchScreen.xib */,
+				47E8ADA91BABF7E900C00590 /* Wittee.xcdatamodeld */,
+				47E8ADA21BABF7E900C00590 /* Supporting Files */,
+			);
+			path = Wittee;
+			sourceTree = "<group>";
+		};
+		47E8ADA21BABF7E900C00590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E8ADA31BABF7E900C00590 /* Info.plist */,
+				47E8ADA41BABF7E900C00590 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47E8ADBE1BABF7E900C00590 /* WitteeTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E8ADC11BABF7E900C00590 /* WitteeTests.m */,
+				47E8ADBF1BABF7E900C00590 /* Supporting Files */,
+			);
+			path = WitteeTests;
+			sourceTree = "<group>";
+		};
+		47E8ADBF1BABF7E900C00590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E8ADC01BABF7E900C00590 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E8AD9E1BABF7E900C00590 /* Wittee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E8ADC51BABF7E900C00590 /* Build configuration list for PBXNativeTarget "Wittee" */;
+			buildPhases = (
+				47E8AD9B1BABF7E900C00590 /* Sources */,
+				47E8AD9C1BABF7E900C00590 /* Frameworks */,
+				47E8AD9D1BABF7E900C00590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wittee;
+			productName = Wittee;
+			productReference = 47E8AD9F1BABF7E900C00590 /* Wittee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E8ADBA1BABF7E900C00590 /* WitteeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E8ADC81BABF7E900C00590 /* Build configuration list for PBXNativeTarget "WitteeTests" */;
+			buildPhases = (
+				47E8ADB71BABF7E900C00590 /* Sources */,
+				47E8ADB81BABF7E900C00590 /* Frameworks */,
+				47E8ADB91BABF7E900C00590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E8ADBD1BABF7E900C00590 /* PBXTargetDependency */,
+			);
+			name = WitteeTests;
+			productName = WitteeTests;
+			productReference = 47E8ADBB1BABF7E900C00590 /* WitteeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E8AD971BABF7E900C00590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Tinker Ventures Pte Ltd";
+				TargetAttributes = {
+					47E8AD9E1BABF7E900C00590 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					47E8ADBA1BABF7E900C00590 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 47E8AD9E1BABF7E900C00590;
+					};
+				};
+			};
+			buildConfigurationList = 47E8AD9A1BABF7E900C00590 /* Build configuration list for PBXProject "Wittee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E8AD961BABF7E900C00590;
+			productRefGroup = 47E8ADA01BABF7E900C00590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E8AD9E1BABF7E900C00590 /* Wittee */,
+				47E8ADBA1BABF7E900C00590 /* WitteeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E8AD9D1BABF7E900C00590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E8ADB11BABF7E900C00590 /* Main.storyboard in Resources */,
+				47E8ADB61BABF7E900C00590 /* LaunchScreen.xib in Resources */,
+				47E8ADB31BABF7E900C00590 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E8ADB91BABF7E900C00590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E8AD9B1BABF7E900C00590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E8ADA81BABF7E900C00590 /* AppDelegate.m in Sources */,
+				47E8ADA51BABF7E900C00590 /* main.m in Sources */,
+				47E8ADAE1BABF7E900C00590 /* ViewController.m in Sources */,
+				47E8ADAB1BABF7E900C00590 /* Wittee.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E8ADB71BABF7E900C00590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E8ADC21BABF7E900C00590 /* WitteeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47E8ADBD1BABF7E900C00590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E8AD9E1BABF7E900C00590 /* Wittee */;
+			targetProxy = 47E8ADBC1BABF7E900C00590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47E8ADAF1BABF7E900C00590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E8ADB01BABF7E900C00590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47E8ADB41BABF7E900C00590 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E8ADB51BABF7E900C00590 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E8ADC31BABF7E900C00590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E8ADC41BABF7E900C00590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E8ADC61BABF7E900C00590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wittee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47E8ADC71BABF7E900C00590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wittee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47E8ADC91BABF7E900C00590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WitteeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wittee.app/Wittee";
+			};
+			name = Debug;
+		};
+		47E8ADCA1BABF7E900C00590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WitteeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wittee.app/Wittee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E8AD9A1BABF7E900C00590 /* Build configuration list for PBXProject "Wittee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E8ADC31BABF7E900C00590 /* Debug */,
+				47E8ADC41BABF7E900C00590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E8ADC51BABF7E900C00590 /* Build configuration list for PBXNativeTarget "Wittee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E8ADC61BABF7E900C00590 /* Debug */,
+				47E8ADC71BABF7E900C00590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47E8ADC81BABF7E900C00590 /* Build configuration list for PBXNativeTarget "WitteeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E8ADC91BABF7E900C00590 /* Debug */,
+				47E8ADCA1BABF7E900C00590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47E8ADA91BABF7E900C00590 /* Wittee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47E8ADAA1BABF7E900C00590 /* Wittee.xcdatamodel */,
+			);
+			currentVersion = 47E8ADAA1BABF7E900C00590 /* Wittee.xcdatamodel */;
+			path = Wittee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47E8AD971BABF7E900C00590 /* Project object */;
+}
